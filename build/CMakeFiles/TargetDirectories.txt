@@ -1,3 +1,0 @@
-/home/sagey/Cprojects/test_project/build/CMakeFiles/test_runner.dir
-/home/sagey/Cprojects/test_project/build/CMakeFiles/edit_cache.dir
-/home/sagey/Cprojects/test_project/build/CMakeFiles/rebuild_cache.dir

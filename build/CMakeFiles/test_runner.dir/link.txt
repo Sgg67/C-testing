@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/test_runner.dir/test/test_math.cpp.o CMakeFiles/test_runner.dir/src/math.c.o -o test_runner  -lgtest -lgtest_main -lpthread 
