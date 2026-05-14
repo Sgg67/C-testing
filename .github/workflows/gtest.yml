@@ -28,7 +28,6 @@ jobs:
         
     - name: make tests
       run: |
-       cd ~/Cprojects/test_project
        mkdir -p build
        cd build
        cmake ..
