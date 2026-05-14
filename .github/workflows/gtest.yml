@@ -11,6 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+    - name: Checkout
+      uses: actions/checkout@v3
     - name: install gtest
       run: |
         sudo apt update
@@ -32,6 +35,6 @@ jobs:
        make
 
     - name: run tests
-      run: ./test_runner
+      run: ./build/test_runner
     
      
