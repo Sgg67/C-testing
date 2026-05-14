@@ -26,3 +26,11 @@ TEST(MathTest, Divide_By_Zero){
 TEST(MathTest, Sqrt){
     EXPECT_EQ(sqrd(25), 5.0d);
 }
+
+TEST(MathTest, Pow){
+    EXPECT_EQ(power(5.0,5.0), 25.0d);
+}
+
+TEST(MathTest, ZeroPow){
+    EXPECT_EQ(power(5.0,0), 1.0d);
+}

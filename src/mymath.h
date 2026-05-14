@@ -6,4 +6,5 @@ int subtract(int a, int b);
 int divide(int a, int b);
 int multiply(int a, int b);
 double sqrd(double a);
+double power(double a, double b);
 #endif

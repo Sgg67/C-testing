@@ -23,3 +23,8 @@ double sqrd(double a){
     return sq;
 }
 
+double power(double a, double b){
+    double pw = pow(a,b);
+    return pw;
+}
+
