@@ -28,7 +28,7 @@ TEST(MathTest, Sqrt){
 }
 
 TEST(MathTest, Pow){
-    EXPECT_EQ(power(5.0,5.0), 25.0d);
+    EXPECT_EQ(power(5.0,2.0), 25.0d);
 }
 
 TEST(MathTest, ZeroPow){
