@@ -8,7 +8,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -25,7 +24,7 @@ jobs:
         sudo cp lib/*.a /usr/lib
         
     - name: make tests
-     run: |
+      run: |
        cd ~/Cprojects/test_project
        mkdir -p build
        cd build
